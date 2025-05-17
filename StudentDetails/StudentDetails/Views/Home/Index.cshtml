@@ -1,0 +1,20 @@
+﻿@{
+	ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+	<h1>Welcome! </h1>
+	<h2 class="display-6">Start by adding the Student or just view the Students List.</h2>
+	<br />
+
+	<div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+
+		<ul class="navbar-nav flex-grow-1">
+			<li>
+				<a class="btn btn-primary" asp-area="" asp-controller="Student" asp-action="Create">Add Student</a>
+				<a class="btn btn-primary" asp-area="" asp-controller="Student" asp-action="Index">View Student</a>
+			</li>
+
+		</ul>
+	</div>
+</div>
